@@ -42,12 +42,12 @@ smoking_status=st.sidebar.radio('Do you smoke currently?',['current','former','n
 fm_history=0 if familyhistory=='no' else 1
 htension_history=0 if hypertensionhistory=='no' else 1
 cv_history=0 if cardiovascularhistory=='no' else 1
-fg=1 if gender=='female' else 0
-mg=1 if gender=='male' else 0
-og=1 if gender=='other' else 0
-cs_smoker=1 if smoking_status=='current' else 0
-fs_smoker=1 if smoking_status=='former' else 0
-ns_smoker=1 if smoking_status=='never' else 0
+fg = 1.0 if gender == 'Female🌸' else 0.0
+mg = 1.0 if gender == 'Male⚔️' else 0.0
+og = 1.0 if gender == 'Other' else 0.0
+cs_smoker = 1.0 if smoking_status == 'Current' else 0.0
+fs_smoker = 1.0 if smoking_status == 'Former' else 0.0
+ns_smoker = 1.0 if smoking_status == 'Never' else 0.0
 
 
 
